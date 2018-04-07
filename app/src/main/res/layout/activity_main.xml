@@ -16,18 +16,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp"
         android:src="@drawable/codigo_del_proletario"
         />
     <TextView
+        android:id="@+id/textNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/carlos_merino"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="4dp"
         android:layout_marginBottom="10dp"/>
     <TextView
+        android:id="@+id/textCarrera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ingenieria_informatica"
@@ -35,6 +37,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="25dp"/>
     <LinearLayout
+        android:id="@+id/informacionUno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -47,6 +50,7 @@
             android:layout_weight="1"/>
 
         <TextView
+            android:id="@+id/textNombreFacebook"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/carlos_merino"
@@ -59,6 +63,7 @@
             android:layout_weight="1"
             android:src="@drawable/gmail"/>
         <TextView
+            android:id="@+id/textGmail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/carlos_merino194"
@@ -79,6 +84,7 @@
             android:src="@drawable/github"/>
 
         <TextView
+            android:id="@+id/textGit"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/carmer194"
@@ -92,12 +98,17 @@
             android:src="@drawable/whatsapp"
             />
         <TextView
+            android:id="@+id/textNumeroTEL"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/_503_70319666"
             android:layout_weight="1"
             android:textColor="#000"/>
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:layout_width="wrap_content"
